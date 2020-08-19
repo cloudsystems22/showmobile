@@ -355,14 +355,70 @@ form{
     z-index: 80;
 }
 .footer-itens{
-    width: 900px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 .logo-footer{
+    margin-left:10px;
     width: 200px;
-    height: 20px;
+    height: 60px;
+    margin-top: 125px;
 }
 .logo-footer img{
-    width: 180px;
+    width: 210px;
 }
+.mapa-site{
+    width: 150px;
+    margin-top: 125px;
+    margin-left: 50px;
+    font-size:10pt;
+}
+.mapa-site span{
+    font-weight: bold;
+}
+.mapa-site p{
+    color:#ffffff;
+    margin-left: 10px;
+}
+.mapa-site ul {
+    list-style: none;
+    color:#ffffff;
+}
+.mapa-site ul li a{
+    color: #ffffff;
+}
+.contato-footer{
+    width: 300px;
+    margin-top: 125px;
+    margin-left: 10px;
+    font-size: 10pt;
+}
+.contato-footer span{
+    font-weight: bold;
+    color: #ffffff;
+}
+.contato-footer ul {
+    list-style: none;
+}
+.contato-footer ul li{
+    color:#ffffff;
+}
+.politica-info{
+    width: 200px;
+    margin-top: 125px;
+    margin-left: 10px;
+    font-size: 10pt;
+    color:#ffffff;
+}
+.politica-info span{
+    font-weight: bold;
+}
+.politica-info p {
+    margin:0;
+    padding: 0;
+}
+.politica-info p a{
+    color:#ffffff;
+}
+

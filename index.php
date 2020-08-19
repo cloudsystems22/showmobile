@@ -224,6 +224,34 @@
                     <img src="image/logo-branco.png" alt="">
                 </a>
             </div>
+            <div class='mapa-site'>
+                <p><span>MAPA DO SITE</span></p>
+                <ul>
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">Tarifas móveis</a></li>
+                    <li><a href="#!">Nossos artistas</a></li>
+                    <li><a href="#!">Sobre nós</a></li>
+                    <li><a href="#!">Contato</a></li>
+                </ul>
+
+            </div>
+            <div class='contato-footer'>
+                <p><span>CONTATO</span></p>
+                <ul>
+                    <li>Email: <span>contato@operadorashow.com.br</span></li>
+                    <li>Telefone: <span>+55(19)3201-2636</span></li>
+                    <li>Endereço: <span>Rua Coronel Quirino, 2159</span><br><span>Cambuí - Campinas-SP - 13025-033</span></li>
+                    
+                </ul>
+            </div>
+            <div class='politica-info'>
+                <p><span>POLÍTICA DE INFORMAÇÕES</span></p>
+                <br>
+                <p><a href="#!">POLÍTICA DE PRIVACIDADE</a></p>
+                <p><a href="#!">CONDIÇÕES DE DEVOLUÇÃO</a></p>
+                <p><a href="#!">AVISO LEGAL</a></p>
+
+            </div>
         </div>
     </div>
 
