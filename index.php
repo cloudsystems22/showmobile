@@ -64,7 +64,7 @@
     <hr>
     <section id='sessao-planos'>
         <div class='fundo-planos'>
-            <div class='planos-group row'>
+            <div class='planos-group scroll'>
                 <a href="#!">
                     <div class='plano plano-um'>
                         <p class='font-color-orange span-plano25'>Ligações e SMS</p>
@@ -97,7 +97,7 @@
     <section id='nossos-artistas'>
         <h2>Nossos <span class='font-color-orange'>Artistas</span></h2>
         <div class='fundo-artistas'>
-            <div class='planos-group row'>
+            <div class='planos-group scroll'>
                 <a href="#!">
                     <div class='plano'>
                         <div class='plan-klb'></div>
@@ -160,7 +160,7 @@
                         <img src="image/simcard-show.png" alt="" class='simcard'>
                     </a>
                 </div>
-                <div class='col-8 col-md-8 col-sm-12'>
+                <div class='col-8 col-md-8 col-sm-12 sn-response'>
                     <h3><span class='font-color-orange'>Sobre nós</span></h3>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -183,7 +183,7 @@
             <h3>Entre em <span class='font-color-orange'>contato</span></h3>
             <form action="">
                 <div class='row'>
-                    <div class='col-6 col-md-6 col-sm-12'>
+                    <div class='col-6 col-md-6 col-sm-12 row-form-resp'>
                         <div class='row'>
                             <div class='col-12 col-sm-12'>
                                 <label for="">Nome</label>
@@ -199,7 +199,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class='col-6 col-md-6 col-sm-12'>
+                    <div class='col-6 col-md-6 col-sm-12 row-form-resp'>
+                        <div class='row'>
                             <div class='col-12 col-sm-12'>
                                 <label for="">Assunto</label>
                                 <input type="text" class='input-orange'>
@@ -211,6 +212,7 @@
                             <div class='col-12 col-sm-12'>
                                 <button class='btn-enviar'>Enviar</button>
                             </div>
+                        </div>
                     </div>
 
                 </div>
