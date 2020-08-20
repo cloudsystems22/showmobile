@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/pallet.css">
 </head>
-<body>
-    <div id='nav-bar'>
+<body id='page-top'>
+    <header id='nav-bar'>
         <div class='container'>
             <div class='row'>
                 <div class='col-3 col-md-3 col-sm-3'>
-                    <a href="#!">
+                    <a href="#page-top" class='nav-scroll'>
                         <img src="image/logo-preto.png" alt="Show Mobile" class='logo'>
                     </a>
                 </div>
                 <div class='col-6 col-md-6 col-sm-6'>
-                    <ul class='nav'>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#!">Tarifas Móveis</a></li>
-                        <li><a href="#!">Nossos Artistas</a></li>
-                        <li><a href="#!">Sobre nós</a></li>
-                        <li><a href="#!">Contato</a></li>
+                    <ul class='nav nav-resp'>
+                        <li><a href="#page-top" class='nav-scroll'>Home</a></li>
+                        <li><a href="#sessao-planos" class='nav-scroll'>Tarifas Móveis</a></li>
+                        <li><a href="#nossos-artistas" class='nav-scroll'>Nossos Artistas</a></li>
+                        <li><a href="#sobre-nos" class='nav-scroll'>Sobre nós</a></li>
+                        <li><a href="#form-contato" class='nav-scroll'>Contato</a></li>
                     </ul>
                 </div>
                 <div class='col-3 col-md-3 col-sm-3'>
@@ -36,12 +36,12 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id='banner'>
+    </header>
+    <section id='banner'>
         <div class='banner-fundo'>
          
         </div>
-    </div>
+    </section>
     <div id='menu-icon'>
         <!-- <ul class='menu-ico'>
             <li><a href="#!" class='font-color-orange'><img src="ico/team.png" alt=""><br>Conheça a show</a></li>
@@ -62,7 +62,7 @@
         <h3>Conheça nossas <span class='font-color-orange'>tarifas móveis</span> e aproveite a <span class='font-color-orange'>melhor conexão</span> com <span class='font-color-orange'>conteúdos exclusivos</span> do seus artistas preferidos <span class='font-color-orange'></span></h3>
     </div>
     <hr>
-    <div id='sessao-planos'>
+    <section id='sessao-planos'>
         <div class='fundo-planos'>
             <div class='planos-group row'>
                 <a href="#!">
@@ -93,8 +93,8 @@
             </div>
 
         </div>
-    </div>
-    <div id='nossos-artistas'>
+    </section>
+    <section id='nossos-artistas'>
         <h2>Nossos <span class='font-color-orange'>Artistas</span></h2>
         <div class='fundo-artistas'>
             <div class='planos-group row'>
@@ -119,14 +119,14 @@
 
             </div>
         </div>
-    </div>
-    <div id='suporte'>
+    </section>
+    <!--<div id='suporte'>
         <div class='support'>
             <div class='row'>
                 <div class='col-6 col-md-6 col-sm-12'>
                     <div class='row'>
                         <div class='col-md-3 col-sm-12'>
-                            <img src="ico/support.png" alt="" class='suport-img'> 
+                            <img src="ico/support-orange.png" alt="" class='suport-img'> 
                         </div>
                         <div class='col-md-9 col-sm-12'>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae ullam corporis cum tempora optio facere, 
@@ -138,7 +138,7 @@
                 <div class='col-6 col-md-6 col-sm-12'>
                     <div class='row'>
                         <div class='col-md-3 col-sm-12'>
-                            <img src="ico/working.png" alt="" class='suport-img'>
+                            <img src="ico/working-orange.png" alt="" class='suport-img'>
                         </div>
                         <div class='col-md-9 col-sm-12'>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -151,7 +151,7 @@
 
         </div>
 
-    </div>
+    </div>-->
     <div id='sobre-nos'>
         <div class='sobre-nos'>
             <div class='row'>
@@ -220,7 +220,7 @@
     <div id='rodape'>
         <div class='footer-itens row'>
             <div class='logo-footer'>
-                <a href="#!">
+                <a href="#page-top" class='nav-scroll'>
                     <img src="image/logo-branco.png" alt="">
                 </a>
             </div>
@@ -258,5 +258,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Requisições ajax -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="javascript/scroll.js"></script>
 </body>
 </html>
