@@ -12,6 +12,7 @@ a:hover{
     position:fixed;
     top:0;
     background-color:#ffffff;
+    z-index: 100;
 }
 
 
@@ -574,9 +575,227 @@ form{
         width: 350px;
         height: 580px;
     }
+    #rodape{
+        height: 600px;
+    }
+    .footer-itens{
+        width: 350px;
+    }
     .row-form-resp{
         flex: 99%;
         max-width: 99%;
     }
+    .logo-footer{
+        margin-top: 94px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mapa-site{
+        margin-left: 1px;
+        margin-top: 30px;
+    }
+    .contato-footer{
+        margin-top: 10px;
+    }
+    .politica-info{
+        margin-top:10px;
+    }
+}
 
+@media screen and (max-width:360px) {
+    #banner{
+        height: 100px;
+    }
+    .banner-fundo{
+        height: 99px;
+    }
+    #menu-icon{
+        margin-top: 4px;
+        width: 300px;
+        height: 58px;
+
+    }
+    .grupo-btn{
+        width: 300px;
+    }
+    .btn-menu-ico{
+        width: 57px;
+        height: 57px;
+        font-size: 6pt;
+    }
+    .btn-menu-ico:hover{
+        width: 37px;
+        height: 37px;
+    }
+    .btn-menu-ico img{
+        width: 25px;
+    }
+    #text-apresent{
+        width: 300px;
+    }
+    #text-apresent h3{
+        font-size: 12pt;
+    }
+    .planos-group{
+        width: 420px;
+    }
+    .scroll { 
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: auto;
+        white-space:nowrap;
+        scroll-behavior: smooth;
+    } 
+    .plano{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    #nossos-artistas{
+        height: 480px;
+    }
+
+    #sobre-nos{
+        height: 500px;
+    }
+    .sobre-nos{
+        width: 350px;
+    }
+    .sn-response{
+        margin-top: 5px;
+        max-width: 90%;
+        flex: 99%;
+        margin-left: -20px
+    }
+    #form-contato{
+        height: 500px;
+    }
+    .form{
+        width: 300px;
+        height: 580px;
+    }
+    #rodape{
+        height: 600px;
+    }
+    .footer-itens{
+        width: 350px;
+    }
+    .row-form-resp{
+        flex: 99%;
+        max-width: 99%;
+    }
+    .logo-footer{
+        margin-top: 94px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mapa-site{
+        margin-left: 1px;
+        margin-top: 30px;
+    }
+    .contato-footer{
+        margin-top: 10px;
+    }
+    .politica-info{
+        margin-top:10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #banner{
+        height: 100px;
+    }
+    .banner-fundo{
+        height: 99px;
+    }
+    #menu-icon{
+        margin-top: 4px;
+        width: 300px;
+        height: 58px;
+
+    }
+    .grupo-btn{
+        width: 300px;
+    }
+    .btn-menu-ico{
+        width: 57px;
+        height: 57px;
+        font-size: 6pt;
+    }
+    .btn-menu-ico:hover{
+        width: 37px;
+        height: 37px;
+    }
+    .btn-menu-ico img{
+        width: 25px;
+    }
+    #text-apresent{
+        width: 300px;
+    }
+    #text-apresent h3{
+        font-size: 12pt;
+    }
+    .planos-group{
+        width: 420px;
+    }
+    .scroll { 
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: auto;
+        white-space:nowrap;
+        scroll-behavior: smooth;
+    } 
+    .plano{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    #nossos-artistas{
+        height: 480px;
+    }
+
+    #sobre-nos{
+        height: 500px;
+    }
+    .sobre-nos{
+        width: 350px;
+    }
+    .sn-response{
+        margin-top: 5px;
+        max-width: 90%;
+        flex: 99%;
+        margin-left: -20px
+    }
+    #form-contato{
+        height: 500px;
+    }
+    .form{
+        width: 300px;
+        height: 580px;
+    }
+    #rodape{
+        height: 600px;
+    }
+    .footer-itens{
+        width: 350px;
+    }
+    .row-form-resp{
+        flex: 99%;
+        max-width: 99%;
+    }
+    .logo-footer{
+        margin-top: 94px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mapa-site{
+        margin-left: 1px;
+        margin-top: 30px;
+    }
+    .contato-footer{
+        margin-top: 10px;
+    }
+    .politica-info{
+        margin-top:10px;
+    }
 }
