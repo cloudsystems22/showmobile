@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
 </head>
 <body id='page-top'>
-    <header id='nav-bar'>
+    <header id='navbar' class='nav-bar'>
         <div class='container'>
             <div class='row'>
                 <div class='col-3 col-md-3 col-sm-3'>
@@ -19,7 +19,10 @@
                         <img src="image/logo-preto.png" alt="Show Mobile" class='logo'>
                     </a>
                 </div>
-                <div class='col-6 col-md-6 col-sm-6'>
+                <div class='hanburger'>
+                    <a href="#!" id='btnHanburger'><i class="fas fa-bars fa-2x"></i></a>
+                </div>
+                <div class='col-6 col-md-6 col-sm-6 nav-mobile' id='navMenu'>
                     <ul class='nav nav-resp'>
                         <li><a href="#page-top" class='nav-scroll'>Home</a></li>
                         <li><a href="#sessao-planos" class='nav-scroll'>Tarifas Móveis</a></li>
@@ -28,7 +31,7 @@
                         <li><a href="#form-contato" class='nav-scroll'>Contato</a></li>
                     </ul>
                 </div>
-                <div class='col-3 col-md-3 col-sm-3'>
+                <div class='col-3 col-md-3 col-sm-3 nav-mobile' id='navRedes'>
                     <ul class='nav'>
                         <li><a href="#!"><img src="ico/instagram.png" alt="" class='img-ico'></a></li>
                         <li><a href="#!"><img src="ico/facebook.png" alt="" class='img-ico'></a></li>

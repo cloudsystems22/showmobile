@@ -9,3 +9,13 @@ $('.nav-scroll').click(function(e) {
     }, 1200, 'swing'); // velocidade
 });
 
+let btnHanburger = document.getElementById('btnHanburger');
+let navRedes = document.getElementById('navRedes');
+let navMenu = document.getElementById('navMenu');
+let navBar = document.getElementById('navbar');
+
+btnHanburger.addEventListener('click', function() {
+    navMenu.classList.toggle('nav-mobile-visivel');
+    navRedes.classList.toggle('nav-mobile-visivel');
+    navBar.classList.toggle('expand');
+})
