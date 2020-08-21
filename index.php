@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/flex.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/pallet.css">
+    <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
 </head>
 <body id='page-top'>
     <header id='nav-bar'>
@@ -64,60 +65,125 @@
     <hr>
     <section id='sessao-planos'>
         <div class='fundo-planos'>
-            <div class='planos-group scroll'>
-                <a href="#!">
-                    <div class='plano plano-um'>
-                        <p class='font-color-orange span-plano25'>Ligações e SMS</p>
-                        <p class='font-color-orange span-plano40italico'>Ilimitados</p>
-                        <p class='font-color-orange '><span class='span-plano60'>5</span><span class='span-plano50'>Gb</span></p>
-                        <p class='font-color-orange'>R$<span class='span-plano50'>49</span>,90</p>
-                    </div>
+            <a href="#!" id="leftSlidePlan" class=""><i class="fas fa-angle-left fa-4x"></i></a>
+            <div class='planos-group scroll' id='listaPlano'>
+                <a href="#!" class='plano plano-um'>
+                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
+                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
+                    <p class='font-color-orange '><span class='span-plano60'>5</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>49</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
                 </a>
-                <a href="#!">
-                    <div class='plano plano-dois'>
-                        <p class='font-color-orange span-plano25'>Ligações e SMS</p>
-                        <p class='font-color-orange span-plano40italico'>Ilimitados</p>
-                        <p class='font-color-orange span-plano50italico'><span class='span-plano60'>10</span><span class='span-plano50'>Gb</span></p>
-                        <p class='font-color-orange'>R$<span class='span-plano50'>59</span>,90</p>
-                    </div>
+                <a href="#!" class='plano plano-dois'>
+                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
+                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
+                    <p class='font-color-orange span-plano50italico'><span class='span-plano60'>10</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>59</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
                 </a>
-                <a href="#!">
-                    <div class='plano plano-tres'>
-                        <p class='font-color-orange span-plano25'>Ligações e SMS</p>
-                        <p class='font-color-orange span-plano40italico'>Ilimitados</p>
-                        <p class='font-color-orange span-plano50italico'><span class='span-plano60'>15</span><span class='span-plano50'>Gb</span></p>
-                        <p class='font-color-orange'>R$<span class='span-plano50'>79</span>,90</p>
-                    </div>
+                <a href="#!" class='plano plano-tres'>
+                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
+                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
+                    <p class='font-color-orange span-plano50italico'><span class='span-plano60'>15</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>79</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
+                </a>
+                <a href="#!" class='plano plano-um'>
+                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
+                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
+                    <p class='font-color-orange '><span class='span-plano60'>5</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>49</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
+                </a>
+                <a href="#!" class='plano plano-dois'>
+                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
+                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
+                    <p class='font-color-orange span-plano50italico'><span class='span-plano60'>10</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>59</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
+                </a>
+                <a href="#!" class='plano plano-tres'>
+                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
+                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
+                    <p class='font-color-orange span-plano50italico'><span class='span-plano60'>15</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>79</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
                 </a>
 
             </div>
-
+            <a href="#!" id="rightSlidePlan" class=""><i class="fas fa-angle-right fa-4x"></i></a> 
         </div>
     </section>
     <section id='nossos-artistas'>
         <h2>Nossos <span class='font-color-orange'>Artistas</span></h2>
         <div class='fundo-artistas'>
-            <div class='planos-group scroll'>
-                <a href="#!">
-                    <div class='plano'>
-                        <div class='plan-klb'></div>
-                        <div class='plan-klb-descr'></div>
+            <a href="#!" id="leftSlide" class=""><i class="fas fa-angle-left fa-4x"></i></a>
+            <div class='planos-group scroll' id='sessaoArtistas'>
+                <a href="#!" class='plano'>
+                    <div class='plan-klb'></div>
+                    <div class='plan-klb-descr'>
+                       <h3>KLB</h3>
+                        <div class='klb-logo'>
+                            <img src="image/logoKLB.png" alt="">
+                        </div>
                     </div>
                 </a>
-                <a href="#!">
-                    <div class='plano'>
-                        <div class='plan-klb'></div>
-                        <div class='plan-klb-descr'></div>
+                <a href="#!" class='plano'>
+                    <div class='plan-klb'></div>
+                    <div class='plan-klb-descr'>
+                       <h3>KLB</h3>
+                        <div class='klb-logo'>
+                            <img src="image/logoKLB.png" alt="">
+                        </div>
                     </div>
                 </a>
-                <a href="#!">
-                    <div class='plano'>
-                        <div class='plan-klb'></div>
-                        <div class='plan-klb-descr'></div>
+                <a href="#!" class='plano'>
+                    <div class='plan-klb'></div>
+                    <div class='plan-klb-descr'>
+                       <h3>KLB</h3>
+                        <div class='klb-logo'>
+                            <img src="image/logoKLB.png" alt="">
+                        </div>
                     </div>
                 </a>
-
+                <a href="#!" class='plano'>
+                    <div class='plan-klb'></div>
+                    <div class='plan-klb-descr'>
+                       <h3>KLB</h3>
+                        <div class='klb-logo'>
+                            <img src="image/logoKLB.png" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a href="#!" class='plano'>
+                    <div class='plan-klb'></div>
+                    <div class='plan-klb-descr'>
+                       <h3>KLB</h3>
+                        <div class='klb-logo'>
+                            <img src="image/logoKLB.png" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a href="#!" class='plano'>
+                    <div class='plan-klb'></div>
+                    <div class='plan-klb-descr'>
+                       <h3>KLB</h3>
+                        <div class='klb-logo'>
+                            <img src="image/logoKLB.png" alt="">
+                        </div>
+                    </div>
+                </a>
+                <a href="#!" class='plano'>
+                    <div class='plan-klb'></div>
+                    <div class='plan-klb-descr'>
+                       <h3>KLB</h3>
+                        <div class='klb-logo'>
+                            <img src="image/logoKLB.png" alt="">
+                        </div>
+                    </div>
+                </a>
             </div>
+            <a href="#!" id="rightSlide" class=""><i class="fas fa-angle-right fa-4x"></i></a> 
         </div>
     </section>
     <!--<div id='suporte'>
@@ -264,5 +330,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script src="javascript/scroll.js"></script>
+    <script src="javascript/caroussel.js"></script>
 </body>
 </html>

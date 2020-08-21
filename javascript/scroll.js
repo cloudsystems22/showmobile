@@ -8,3 +8,4 @@ $('.nav-scroll').click(function(e) {
         scrollTop: targetOffset - 70 //Aplico animação jquery de scroll suave - pixels do cabeçalho;
     }, 1200, 'swing'); // velocidade
 });
+

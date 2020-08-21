@@ -179,6 +179,50 @@ a:hover{
     white-space:nowrap;
     scroll-behavior: smooth;
 } 
+#leftSlidePlan{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: block;
+    /* background-color: #FFFF;
+    border-radius: 100%; */
+    margin-top: 185px;
+    margin-left: 20%;
+    color:#c65030;
+}
+#rightSlidePlan{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: block;
+    /* background-color: #FFFF;
+    border-radius: 100%; */
+    margin-top: -243px;
+    margin-left: 77%;
+    color:#c65030;
+}
+#leftSlide{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: block;
+    /* background-color: #FFFF;
+    border-radius: 100%; */
+    margin-top: 185px;
+    margin-left: 20%;
+    color:#c65030;
+}
+#rightSlide{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: block;
+    /* background-color: #FFFF;
+    border-radius: 100%; */
+    margin-top: -243px;
+    margin-left: 77%;
+    color:#c65030;
+}
 .plano{
     width: 270px;
     height: 400px;
@@ -188,10 +232,14 @@ a:hover{
     margin-bottom: 10px;
     box-shadow: 0 0 10px #535353;
     display: inline-block;
-    transition: all 0.2s ease-in-out;
+    *display:inline;
+    *zoom:1;
+    vertical-align:top;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
 }
 .plano:hover{
-    margin-top: -15px;
+    margin-top: -5px;
     box-shadow: 0 0 10px #f77a49;
 }
 .plano-um{
@@ -230,6 +278,13 @@ a:hover{
 }
 .span-plano25{
     font-size: 25pt;
+    margin:0;
+    padding:0;
+}
+.span-plano15italicoBold{
+    font-size: 25pt;
+    font-weight: bold;
+    font-style: italic;
     margin:0;
     padding:0;
 }
@@ -274,6 +329,20 @@ a:hover{
     height: 200px;
     width: 270px;
     background-color:#c65030;
+}
+.plan-klb-descr h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40pt;
+}
+.plan-klb-descr img{
+    width: 150px;
+}
+.klb-logo{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
 }
 
 #suporte{
@@ -438,6 +507,24 @@ form{
 .politica-info p a{
     color:#ffffff;
 }
+@media screen and(max-width:1440px){
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 10%;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 85%;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 10%;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 85%;
+    }
+}
 
 @media screen and (max-width:990px){
     #banner{
@@ -474,6 +561,22 @@ form{
     /* .plano{
         width: 270px;
     } */
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 950px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 950px;
+    }
     .span-plano40italico{
         font-size: 40px;
     }
@@ -552,7 +655,22 @@ form{
         margin-left: 75px;
         margin-right: 75px;
     }
-    
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 400px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 400px;
+    }
     #nossos-artistas{
         height: 480px;
     }
@@ -650,7 +768,22 @@ form{
         margin-left: 25px;
         margin-right: 25px;
     }
-    
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 300px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 300px;
+    }
     #nossos-artistas{
         height: 480px;
     }
