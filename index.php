@@ -12,6 +12,7 @@
 </head>
 <body id='page-top'>
     <header id='navbar' class='nav-bar'>
+        
         <div class='container'>
             <div class='row'>
                 <div class='col-3 col-md-3 col-sm-3'>
@@ -30,13 +31,16 @@
                         <li><a href="#sobre-nos" class='nav-scroll'>Sobre nós</a></li>
                         <li><a href="#form-contato" class='nav-scroll'>Contato</a></li>
                     </ul>
+                    
                 </div>
                 <div class='col-3 col-md-3 col-sm-3 nav-mobile' id='navRedes'>
-                    <ul class='nav'>
+                    <p class='tel-comercial'><span>0800-2003581</span><br>Atendimento comercial</p>
+                    <ul class='nav' id='navredes'>
                         <li><a href="#!"><img src="ico/instagram.png" alt="" class='img-ico'></a></li>
                         <li><a href="#!"><img src="ico/facebook.png" alt="" class='img-ico'></a></li>
                         <li><a href="#!"><img src="ico/youtube.png" alt="" class='img-ico-youtube'></a></li>
                     </ul>
+                    
                 </div>
             </div>
         </div>
@@ -127,7 +131,7 @@
                     <div class='plan-klb-descr'>
                        <h3>KLB</h3>
                         <div class='klb-logo'>
-                            <img src="image/logoKLB.png" alt="">
+                            <img src="image/logo-do-klb.png" alt="">
                         </div>
                     </div>
                 </a>
@@ -136,7 +140,7 @@
                     <div class='plan-klb-descr'>
                        <h3>KLB</h3>
                         <div class='klb-logo'>
-                            <img src="image/logoKLB.png" alt="">
+                            <img src="image/logo-do-klb.png" alt="">
                         </div>
                     </div>
                 </a>
@@ -145,7 +149,7 @@
                     <div class='plan-klb-descr'>
                        <h3>KLB</h3>
                         <div class='klb-logo'>
-                            <img src="image/logoKLB.png" alt="">
+                            <img src="image/logo-do-klb.png" alt="">
                         </div>
                     </div>
                 </a>
@@ -154,7 +158,7 @@
                     <div class='plan-klb-descr'>
                        <h3>KLB</h3>
                         <div class='klb-logo'>
-                            <img src="image/logoKLB.png" alt="">
+                            <img src="image/logo-do-klb.png" alt="">
                         </div>
                     </div>
                 </a>
@@ -163,7 +167,7 @@
                     <div class='plan-klb-descr'>
                        <h3>KLB</h3>
                         <div class='klb-logo'>
-                            <img src="image/logoKLB.png" alt="">
+                            <img src="image/logo-do-klb.png" alt="">
                         </div>
                     </div>
                 </a>
@@ -172,7 +176,7 @@
                     <div class='plan-klb-descr'>
                        <h3>KLB</h3>
                         <div class='klb-logo'>
-                            <img src="image/logoKLB.png" alt="">
+                            <img src="image/logo-do-klb.png" alt="">
                         </div>
                     </div>
                 </a>
@@ -181,7 +185,7 @@
                     <div class='plan-klb-descr'>
                        <h3>KLB</h3>
                         <div class='klb-logo'>
-                            <img src="image/logoKLB.png" alt="">
+                            <img src="image/logo-do-klb.png" alt="">
                         </div>
                     </div>
                 </a>
@@ -297,7 +301,7 @@
             </div>
             <div class='mapa-site'>
                 <p><span>MAPA DO SITE</span></p>
-                <ul>
+                <ul class='rodape-list'>
                     <li><a href="#!">Home</a></li>
                     <li><a href="#!">Tarifas móveis</a></li>
                     <li><a href="#!">Nossos artistas</a></li>
@@ -308,9 +312,10 @@
             </div>
             <div class='contato-footer'>
                 <p><span>CONTATO</span></p>
-                <ul>
+                <ul class='rodape-list'>
                     <li>Email: <span>contato@operadorashow.com.br</span></li>
                     <li>Telefone: <span>+55(19)3201-2636</span></li>
+                    <li>Comercial: <span>0800-2003581</span></li>
                     <li>Endereço: <span>Rua Coronel Quirino, 2159</span><br><span>Cambuí - Campinas-SP - 13025-033</span></li>
                     
                 </ul>
