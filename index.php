@@ -45,6 +45,22 @@
             </div>
         </div>
     </header>
+    <div class='side-bar' id='sideBar'>
+        <p class='tel-comercial-side'><span>0800-2003581</span><br>Atendimento comercial</p>
+        <ul class='nav-side-redes' id='navredes-exp'>
+            <li><a href="#!"><img src="ico/instagram.png" alt="" class='img-ico'></a></li>
+            <li><a href="#!"><img src="ico/facebook.png" alt="" class='img-ico'></a></li>
+            <li><a href="#!"><img src="ico/youtube.png" alt="" class='img-ico-youtube'></a></li>
+        </ul>
+        <hr>
+        <ul class='nav-side'>
+            <li><a href="#page-top" class='nav-scroll-side'>Home</a></li>
+            <li><a href="#sessao-planos" class='nav-scroll-side'>Tarifas Móveis</a></li>
+            <li><a href="#nossos-artistas" class='nav-scroll-side'>Nossos Artistas</a></li>
+            <li><a href="#sobre-nos" class='nav-scroll-side'>Sobre nós</a></li>
+            <li><a href="#form-contato" class='nav-scroll-side'>Contato</a></li>
+        </ul>
+    </div>
     <section id='banner'>
         <div class='banner-fundo'>
          
@@ -236,14 +252,17 @@
                 <div class='col-8 col-md-8 col-sm-12 sn-response'>
                     <h3><span class='font-color-orange'>Sobre nós</span></h3>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        In magni distinctio iste vero asperiores ratione quas odio hic adipisci, alias ab perferendis explicabo labore ad. 
-                        Eligendi repellat enim autem fugit.
+                    A Uni Global Telecom, multinacional espanhola de telecomunicações apresenta, a SHOW Mobile, 
+                    um novo conceito em telefonía para o mercado brasileiro, em asociação com grandes nomes do show business e do Marketing digital, 
+                    a SHOW Mobile oferece as melhores tarifas, melhor cobertura e conteúdos e promoções exclusivas para seus clientes. 
+                    Muito Além da conectividade a SHOW proporciona uma experiência exclusiva e cria um novo canal de relacionamento entre o fã e seus artistas favoritos.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ipsum, ab aspernatur, laborum non at cum aliquam delectus beatae rerum architecto distinctio omnis, unde ratione odio. 
-                        Exercitationem aliquam officia eius quos.
+                        O que fazemos<br> 
+                        Unimos fãs aos seus artistas favoritos criando uno novo canal de relacionamento. 
+                        Proporcionamos aos artistas uma ferramenta única e exclusiva para vender conteúdos 
+                        e criar experiências exclusivas com o público, aumentando as posibilidades de remuneração hoje existentes. 
+                        Além disso todos os artistas da SHOW recebem mensalmente uma comissão sobre os valores das tarifas móveis de toda sua base de clientes.
                     </p>
                 </div>
 
@@ -323,7 +342,7 @@
             <div class='politica-info'>
                 <p><span>POLÍTICA DE INFORMAÇÕES</span></p>
                 <br>
-                <p><a href="#!">POLÍTICA DE PRIVACIDADE</a></p>
+                <p><a href="https://www.uniglobaltelecom.com/web/files/politica-de-privacidad.pdf" target='_blank'>POLÍTICA DE PRIVACIDADE</a></p>
                 <p><a href="#!">CONDIÇÕES DE DEVOLUÇÃO</a></p>
                 <p><a href="#!">AVISO LEGAL</a></p>
 

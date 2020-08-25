@@ -4,6 +4,57 @@ a{
 a:hover{
     text-decoration: none;
 }
+.nav-side{
+    list-style: none;
+}
+.nav-side-redes{
+    list-style: none;
+}
+.nav-side-redes li{
+    display: inline;
+}
+.nav-side-redes li a{
+    text-decoration: none;
+}
+.side-bar{
+    background-color:#ffffff;
+    box-shadow: 0 0 10px #f3d9d2;
+    width: 250px;
+    position: fixed;
+    height: 100vh;
+    transition: 600ms ease-in-out;
+    z-index: 98;
+    margin-left: -250px;
+}
+.bar-visivel{
+    width: 250px;
+    margin-left: 0;
+}
+.nav-side li a{
+    text-decoration: none;
+    display: block;
+    padding-left: 25px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+.nav-side li a:hover{
+    color: #c65030;
+    /* font-weight: bold; */
+}
+.tel-comercial-side{
+    margin:0;
+    padding:0;
+    /* text-align: end; */
+    font-size:8pt;
+    margin-top:7px;
+    margin-left:35px;
+}
+
+.tel-comercial-side span{
+    font-weight: bold;
+    color:#c65030;
+    font-size: 10pt;
+}
 
 .tel-comercial{
     margin:0;
@@ -387,7 +438,7 @@ a:hover{
 
 #sobre-nos{
     width: 100%;
-    height: 280px;
+    height: 380px;
 }
 
 .sobre-nos{
@@ -548,6 +599,78 @@ form{
         margin-top: -251px;
         margin-left: 1220px;
     }
+}
+
+@media screen and (max-width:1024px) and (max-height:1366px){
+    .container{
+        margin-left:10px;
+        width: 1000px;
+    }
+    #banner{
+        height: 300px;
+     }
+     .banner-fundo{
+        width: 100%;
+        height: 300px;
+        background-image: url('../image/banner-com-texto.png');
+        /* background-color: #d2d2d0; */
+        /* background-color: #e6e5ea; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        /* background-position: top; */
+    }
+    #menu-icon{
+        width: 685px;
+        margin-left: 10px;
+    }
+    .btn-group{
+        width: 685px;
+
+    }
+    .btn-menu-ico{
+        width: 135px;
+        height: 60px;
+    }
+    #text-apresent{
+        width: 680px;
+        margin-left: 10px;
+    }
+    .planos-group{
+        width: 950px;
+        margin-left: 25px;
+    }
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 10px;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 665px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 10px;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 665px;
+    }
+    #nossos-artistas{
+        height: 500px;
+    }
+    #sobre-nos{
+        height: 380px;
+    }
+    .form{
+        margin-left: 10px;
+        width: 685px;
+    }
+    .sn-response p{
+        margin-left: -30px;
+        width: 350px;
+    }
+   
 }
 
 @media (max-width:990px){
@@ -748,7 +871,7 @@ form{
     }
 
     #sobre-nos{
-        height: 500px;
+        height: 700px;
     }
     .sobre-nos{
         width: 350px;
@@ -792,15 +915,35 @@ form{
     }
     
 }
+@media screen and (max-width:411px) and (max-height:731px){
+    #menu-icon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #text-apresent{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .planos-group{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media screen and (max-width:375px) and (max-height:812px){
     .container{
         margin-left: 2px;
+        width: 350px;
     }
     .hanburger{
         position: absolute;
         top:5px;
         left: 320px;
         visibility: visible;
+    }
+    #navRedes{
+        margin-left: 200px;
+        margin-top: -6px;
     }
     .hanburger a{
         color:#c65030;
@@ -894,10 +1037,220 @@ form{
     }
 
     #sobre-nos{
-        height: 500px;
+        height: 700px;
     }
     .sobre-nos{
         width: 350px;
+    }
+    .sn-response{
+        margin-top: 5px;
+        max-width: 90%;
+        flex: 99%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #form-contato{
+        height: 500px;
+    }
+    .form{
+        width: 350px;
+        height: 580px;
+    }
+    #rodape{
+        height: 600px;
+    }
+    .footer-itens{
+        width: 350px;
+    }
+    .row-form-resp{
+        flex: 99%;
+        max-width: 99%;
+    }
+    .logo-footer{
+        margin-top: 94px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mapa-site{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .contato-footer{
+        margin-top: 10px;
+    }
+    .politica-info{
+        margin-top:10px;
+    }
+}
+
+
+@media screen and (max-width:360px) and (max-height:640px){
+    .nav-side{
+        list-style: none;
+        padding-left:0;
+    }
+    .nav-side-redes{
+        list-style: none;
+    }
+    .nav-side-redes li{
+        display: inline;
+    }
+    .nav-side-redes li a{
+        text-decoration: none;
+    }
+    .side-bar{
+        background-color:#ffffff;
+        box-shadow: 0 0 10px #f3d9d2;
+        width: 250px;
+        position: fixed;
+        height: 100vh;
+        transition: 600ms ease-in-out;
+        z-index: 98;
+        margin-left: -250px;
+    }
+    .bar-visivel{
+        width: 250px;
+        margin-left: 0;
+    }
+    .nav-side li a{
+        text-decoration: none;
+        display: block;
+        padding-left: 25px;
+        color: #000000;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav-side li a:hover{
+        color: #c65030;
+        /* font-weight: bold; */
+    }
+    .tel-comercial-side{
+        margin:0;
+        padding:0;
+        /* text-align: end; */
+        font-size:8pt;
+        margin-top:7px;
+        margin-left:35px;
+    }
+
+    .tel-comercial-side span{
+        font-weight: bold;
+        color:#c65030;
+        font-size: 10pt;
+    }
+
+    .container{
+        margin-left: 2px;
+        width: 350px;
+    }
+    .hanburger{
+        position: absolute;
+        top:5px;
+        left: 320px;
+        visibility: visible;
+    }
+    #navRedes{
+        margin-left: 200px;
+        margin-top: -6px;
+    }
+    .hanburger a{
+        color:#c65030;
+    }
+    .expand{
+        height: 170px;
+        position: fixed;
+    } 
+    .nav-mobile{
+        margin-left: -37px;
+        flex: 99%;
+        max-width: 99%;
+        visibility: hidden;
+        /* transition: all 0.1s ease-in-out; */
+    }
+    .nav-resp{
+        width: 320px;
+    }
+    .nav-mobile-visivel{
+        visibility: visible;
+    }
+    .nav-mobile-redes{
+        margin-left: -117px;
+        padding-top: 150px
+    }
+    #banner{
+        height: 100px;
+    }
+    .banner-fundo{
+        height: 99px;
+    }
+    #menu-icon{
+        margin-top: 4px;
+        width: 340px;
+        height: 70px;
+
+    }
+    #grupo-btn{
+        width: 339px;
+        height: 63px;
+    }
+    .btn-menu-ico{
+        width: 67px;
+        height: 67px;
+        font-size: 6pt;
+    }
+    .btn-menu-ico:hover{
+        width: 70px;
+        height: 70px;
+    }
+    .btn-menu-ico img{
+        width: 25px;
+    }
+    #text-apresent{
+        width: 300px;
+    }
+    #text-apresent h3{
+        font-size: 12pt;
+    }
+    .planos-group{
+        width: 315px;
+        margin-left: 19px;
+    }
+    .scroll { 
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: auto;
+        white-space:nowrap;
+        scroll-behavior: smooth;
+    } 
+    .plano{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlidePlan{
+        margin-left: 320px;
+        margin-top: -241px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlide{
+        margin-left: 320px;
+        margin-top: -241px;
+    }
+    #nossos-artistas{
+        height: 480px;
+    }
+
+    #sobre-nos{
+        height: 680px;
+    }
+    .sobre-nos{
+        width: 350px;
+        margin-left: 30px;
     }
     .sn-response{
         margin-top: 5px;
@@ -909,6 +1262,7 @@ form{
         height: 500px;
     }
     .form{
+        margin-left: 28px;
         width: 300px;
         height: 580px;
     }
@@ -928,7 +1282,7 @@ form{
         margin-right: auto;
     }
     .mapa-site{
-        margin-left: 1px;
+        margin-left: 10px;
         margin-top: 30px;
     }
     .contato-footer{
@@ -938,7 +1292,6 @@ form{
         margin-top:10px;
     }
 }
-
 
 
 
@@ -1011,6 +1364,7 @@ form{
     }
     .planos-group{
         width: 320px;
+        margin-left:0;
     }
     #leftSlidePlan{
         margin-top: 185px;
@@ -1045,10 +1399,13 @@ form{
     }
 
     #sobre-nos{
-        height: 500px;
+        height: 760px;
     }
     .sobre-nos{
-        width: 350px;
+        width: 300px;
+    }
+    .sobre-nos p{
+        width: 300px;
     }
     .sn-response{
         margin-top: 5px;
@@ -1079,7 +1436,7 @@ form{
         margin-right: auto;
     }
     .mapa-site{
-        margin-left: 1px;
+        margin-left: 10px;
         margin-top: 30px;
     }
     .contato-footer{
@@ -1090,7 +1447,251 @@ form{
     }
 }
 
-@media screen and (max-width:1024px) and (max-height:1366px){
+@media (max-width:320px) {
+    .container{
+        margin-left: 2px;
+        width: 300px;
+    }
+    .nav-bar{
+        width: 320px;
+    }
+    .hanburger{
+        position: absolute;
+        top:5px;
+        left: 280px;
+        visibility: visible;
+    }
+    .hanburger a{
+        color:#c65030;
+    }
+    .expand{
+        height: 170px;
+        position: fixed;
+    } 
+    .nav-mobile{
+        margin-left: -37px;
+        flex: 99%;
+        max-width: 99%;
+        visibility: hidden;
+        /* transition: all 0.1s ease-in-out; */
+    }
+    .nav-resp{
+        width: 320px;
+    }
+    .nav-mobile-visivel{
+        visibility: visible;
+    }
+    .nav-mobile-redes{
+        margin-left: -117px;
+        padding-top: 150px
+    }
+    #banner{
+        height: 100px;
+    }
+    .banner-fundo{
+        height: 99px;
+    }
+    #menu-icon{
+        margin-top: 4px;
+        width: 300px;
+        height: 58px;
+    }
+    #navRedes{
+        margin-left: 155px;
+        margin-top: -7px;
+    }
+    .grupo-btn{
+        width: 300px;
+    }
+    .btn-menu-ico{
+        width: 57px;
+        height: 57px;
+        font-size: 6pt;
+    }
+    .btn-menu-ico:hover{
+        width: 59px;
+        height: 59px;
+    }
+    .btn-menu-ico img{
+        width: 25px;
+    }
+    #text-apresent{
+        width: 300px;
+    }
+    #text-apresent h3{
+        font-size: 12pt;
+    }
+    .planos-group{
+        width: 320px;
+    }
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 280px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 280px;
+    }
+    .scroll { 
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: auto;
+        white-space:nowrap;
+        scroll-behavior: smooth;
+    } 
+    .plano{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    #nossos-artistas{
+        height: 480px;
+    }
+
+    #sobre-nos{
+        height: 760px;
+    }
+    .sobre-nos{
+        width: 350px;
+    }
+    .sn-response{
+        margin-top: 5px;
+        max-width: 90%;
+        flex: 99%;
+        margin-left: -20px
+    }
+    #form-contato{
+        height: 500px;
+    }
+    .form{
+        width: 300px;
+        height: 580px;
+        margin-left: 8px;
+    }
+    #rodape{
+        height: 600px;
+    }
+    .footer-itens{
+        width: 350px;
+    }
+    .row-form-resp{
+        flex: 99%;
+        max-width: 99%;
+    }
+    .logo-footer{
+        margin-top: 94px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mapa-site{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .contato-footer{
+        margin-top: 10px;
+    }
+    .politica-info{
+        margin-top:10px;
+    }
+}
+
+@media (max-width:280px){
+    .logo{
+        width: 115px;
+    }
+    .hanburger{
+        left:230px;
+    }
+    .nav-bar{
+        height: 50px;
+    }
+    #menu-icon{
+        width: 260px;
+    }
+    .grupo-btn{
+        width: 260px;
+    }
+    .btn-menu-ico{
+        width: 50px;
+    }
+    .btn-menu-ico:hover{
+        width: 55px
+    }
+    .expand{
+        height: 155px;
+    }
+    #navRedes{
+        margin-left:145px;
+    }
+    .nav-resp{
+        width: 250px;
+    }
+    #banner{
+        margin-top:50px;
+    }
+    #text-apresent{
+        width: 250px;
+    }
+    #sessao-planos{
+        margin-top:0;
+    }
+    .planos-group{
+        width: 250px;
+    }
+    .plano{
+        margin-left: 1px;
+        width: 240px;
+    }
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 240px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 5px;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 240px;
+    }
+    .plan-klb{
+        width: 240px;
+    }
+    .plan-klb-descr{
+        width: 240px;
+    }
+    .simcard{
+        width: 270px;
+    }
+    .sn-response p{
+        padding-left: 25px;
+        width: 293px;
+    }
+    .form{
+        width: 270px;
+    }
+    .logo-footer{
+        margin-left:35px;
+    }
+    .mapa-site{
+        margin-left: 10px;
+    }
+    .sobre-nos{
+        margin-left:30px;
+    }
 
 }
+
 
