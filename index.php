@@ -289,7 +289,7 @@
                     <h3><span class='font-color-orange'>Sobre nós</span></h3>
                     <p>
                     A Uni Global Telecom, multinacional espanhola de telecomunicações apresenta, a SHOW Mobile, 
-                    um novo conceito em telefonía para o mercado brasileiro, em asociação com grandes nomes do show business e do Marketing digital, 
+                    um novo conceito em telefonia para o mercado brasileiro, em associação com grandes nomes do show business e do Marketing digital, 
                     a SHOW Mobile oferece as melhores tarifas, melhor cobertura e conteúdos e promoções exclusivas para seus clientes. 
                     Muito Além da conectividade a SHOW proporciona uma experiência exclusiva e cria um novo canal de relacionamento entre o fã e seus artistas favoritos.
                     </p>
