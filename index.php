@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show mobile || KLB</title>
+    <title>Operadora Show</title>
+    <link rel="icon" href="ico/1/favicon.png"  sizes="16x16">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style/flex.css">
     <link rel="stylesheet" href="style/style.css">
@@ -288,8 +289,7 @@
                 <div class='col-8 col-md-8 col-sm-12 sn-response'>
                     <h3><span class='font-color-orange'>Sobre nós</span></h3>
                     <p>
-                    A Uni Global Telecom, multinacional espanhola de telecomunicações apresenta, a SHOW Mobile, 
-                    um novo conceito em telefonia para o mercado brasileiro, em associação com grandes nomes do show business e do Marketing digital, 
+                    A  SHOW Mobile, apresenta um novo conceito em telefonia para o mercado brasileiro, em associação com grandes nomes do show business e do Marketing digital, 
                     a SHOW Mobile oferece as melhores tarifas, melhor cobertura e conteúdos e promoções exclusivas para seus clientes. 
                     Muito Além da conectividade a SHOW proporciona uma experiência exclusiva e cria um novo canal de relacionamento entre o fã e seus artistas favoritos.
                     </p>
