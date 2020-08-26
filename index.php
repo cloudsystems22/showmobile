@@ -65,7 +65,7 @@
     </div>
     <section id='banner'>
         <div class='banner-fundo'>
-                <div class='text-banner-dois'>
+                <!--<div class='text-banner-dois'>
                     <ul>
                         <li>Internet sem cortes</li>
                         <li>Ligações Ilimitadas para todo Brasil (Fixo e Celular)</li>
@@ -73,7 +73,7 @@
                         <li>Conteúdos dos seus artistas favoritos</li>
                         <li>Promoções exclusivas</li>
                     </ul>
-                </div>
+                </div>-->
                 <div class='text-banner'>
                     <p class='text-banner-p1'><span class='span-45 font-color-white'>#Seu </span><span class='span-45 font-color-orange'>Palco</span></p>
                     <p class='text-banner-p2'><span class='span-45 font-color-white'>de </span><span class='span-75 font-color-orange'>Conexões!</span></p>
