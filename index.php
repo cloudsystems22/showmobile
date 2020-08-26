@@ -37,10 +37,10 @@
                 </div>
                 <div class='col-3 col-md-3 col-sm-3 nav-mobile' id='navRedes'>
                     <p class='tel-comercial'><span>0800-2003581</span><br>Atendimento comercial</p>
-                    <ul class='nav' id='navredes'>
+                    <ul class='nav-redes' id='navredes'>
                         <li><a href="#!"><img src="ico/instagram.png" alt="" class='img-ico'></a></li>
                         <li><a href="#!"><img src="ico/facebook.png" alt="" class='img-ico'></a></li>
-                        <li><a href="#!"><img src="ico/youtube.png" alt="" class='img-ico-youtube'></a></li>
+                        <!-- <li><a href="#!"><img src="ico/youtube.png" alt="" class='img-ico-youtube'></a></li> -->
                     </ul>
                     
                 </div>
@@ -52,7 +52,7 @@
         <ul class='nav-side-redes' id='navredes-exp'>
             <li><a href="#!"><img src="ico/instagram.png" alt="" class='img-ico'></a></li>
             <li><a href="#!"><img src="ico/facebook.png" alt="" class='img-ico'></a></li>
-            <li><a href="#!"><img src="ico/youtube.png" alt="" class='img-ico-youtube'></a></li>
+            <!-- <li><a href="#!"><img src="ico/youtube.png" alt="" class='img-ico-youtube'></a></li> -->
         </ul>
         <hr>
         <ul class='nav-side'>
@@ -65,6 +65,15 @@
     </div>
     <section id='banner'>
         <div class='banner-fundo'>
+                <div class='text-banner-dois'>
+                    <ul>
+                        <li>Internet sem cortes</li>
+                        <li>Ligações Ilimitadas para todo Brasil (Fixo e Celular)</li>
+                        <li>SMS Ilimitado</li>
+                        <li>Conteúdos dos seus artistas favoritos</li>
+                        <li>Promoções exclusivas</li>
+                    </ul>
+                </div>
                 <div class='text-banner'>
                     <p class='text-banner-p1'><span class='span-45 font-color-white'>#Seu </span><span class='span-45 font-color-orange'>Palco</span></p>
                     <p class='text-banner-p2'><span class='span-45 font-color-white'>de </span><span class='span-75 font-color-orange'>Conexões!</span></p>
@@ -96,27 +105,76 @@
             <a href="#!" id="leftSlidePlan" class=""><i class="fas fa-angle-left fa-4x"></i></a>
             <div class='planos-group scroll' id='listaPlano'>
                 <a href="#!" class='plano plano-um'>
-                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
-                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
-                    <p class='font-color-orange '><span class='span-plano60'>5</span><span class='span-plano50'>Gb</span></p>
-                    <p class='font-color-orange'>R$<span class='span-plano50'>49</span>,90</p>
-                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
+                    <p class='font-color-orange span-plano25'>Plano controle</p>
+                    <ul class='plano-ul'>
+                        <li class='font-color-orange'>Internet sem cortes</li>
+                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
+                        <li class='font-color-orange'>SMS ilimitado</li>
+                    </ul>
+                    <p class='font-color-orange '><span class='span-plano50'>5</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano25'>49</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
                 </a>
                 <a href="#!" class='plano plano-dois'>
-                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
-                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
-                    <p class='font-color-orange span-plano50italico'><span class='span-plano60'>10</span><span class='span-plano50'>Gb</span></p>
-                    <p class='font-color-orange'>R$<span class='span-plano50'>59</span>,90</p>
-                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
+                <p class='font-color-orange span-plano25'>Plano controle</p>
+                    <ul class='plano-ul'>
+                        <li class='font-color-orange'>Internet sem cortes</li>
+                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
+                        <li class='font-color-orange'>SMS ilimitado</li>
+                    </ul>
+                    <p class='font-color-orange '><span class='span-plano50'>10</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano25'>59</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
+                   
                 </a>
                 <a href="#!" class='plano plano-tres'>
-                    <p class='font-color-orange span-plano25'>Ligações e SMS</p>
-                    <p class='font-color-orange span-plano40italico'>Ilimitados</p>
-                    <p class='font-color-orange span-plano50italico'><span class='span-plano60'>15</span><span class='span-plano50'>Gb</span></p>
-                    <p class='font-color-orange'>R$<span class='span-plano50'>79</span>,90</p>
-                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
+                    <p class='font-color-orange span-plano25'>Plano controle</p>
+                    <ul class='plano-ul'>
+                        <li class='font-color-orange'>Internet sem cortes</li>
+                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
+                        <li class='font-color-orange'>SMS ilimitado</li>
+                    </ul>
+                    <p class='font-color-orange '><span class='span-plano50'>15</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano25'>79</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
+                   
                 </a>
                 <a href="#!" class='plano plano-um'>
+                    <p class='font-color-orange span-plano25'>Plano controle</p>
+                    <ul class='plano-ul'>
+                        <li class='font-color-orange'>Internet sem cortes</li>
+                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
+                        <li class='font-color-orange'>SMS ilimitado</li>
+                    </ul>
+                    <p class='font-color-orange '><span class='span-plano50'>5</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano25'>49</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
+                </a>
+                <a href="#!" class='plano plano-dois'>
+                <p class='font-color-orange span-plano25'>Plano controle</p>
+                    <ul class='plano-ul'>
+                        <li class='font-color-orange'>Internet sem cortes</li>
+                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
+                        <li class='font-color-orange'>SMS ilimitado</li>
+                    </ul>
+                    <p class='font-color-orange '><span class='span-plano50'>10</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano25'>59</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
+                   
+                </a>
+                <a href="#!" class='plano plano-tres'>
+                    <p class='font-color-orange span-plano25'>Plano controle</p>
+                    <ul class='plano-ul'>
+                        <li class='font-color-orange'>Internet sem cortes</li>
+                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
+                        <li class='font-color-orange'>SMS ilimitado</li>
+                    </ul>
+                    <p class='font-color-orange '><span class='span-plano50'>15</span><span class='span-plano50'>Gb</span></p>
+                    <p class='font-color-orange'>R$<span class='span-plano25'>79</span>,90</p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
+                   
+                </a>
+                <!-- <a href="#!" class='plano plano-um'>
                     <p class='font-color-orange span-plano25'>Ligações e SMS</p>
                     <p class='font-color-orange span-plano40italico'>Ilimitados</p>
                     <p class='font-color-orange '><span class='span-plano60'>5</span><span class='span-plano50'>Gb</span></p>
@@ -136,7 +194,7 @@
                     <p class='font-color-orange span-plano50italico'><span class='span-plano60'>15</span><span class='span-plano50'>Gb</span></p>
                     <p class='font-color-orange'>R$<span class='span-plano50'>79</span>,90</p>
                     <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
-                </a>
+                </a> -->
 
             </div>
             <a href="#!" id="rightSlidePlan" class=""><i class="fas fa-angle-right fa-4x"></i></a> 
