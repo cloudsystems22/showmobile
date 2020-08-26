@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 a{
     text-decoration:none;
 }
@@ -65,7 +66,7 @@ a:hover{
 .tel-comercial span{
     font-weight: bold;
     color:#c65030;
-    font-size: 10pt;
+    font-size: 12.5pt;
 }
 .nav-bar{
     width: 100%;
@@ -120,21 +121,48 @@ a:hover{
 #banner{
     margin-top: 70px;
     width: 100%;
-    height: 603px;
+    height: 600px;
     box-shadow: 0 0 10px rgb(241, 239, 239);
 }
 
 .banner-fundo{
     width: 100%;
-    height: 600px;
-    background-image: url('../image/banner-com-texto.png');
-    /* background-color: #d2d2d0; */
-    /* background-color: #e6e5ea; */
+    height: 599px;
+    background-image: url('../image/banner-conexao-dois.png');
+    /* background-image: linear-gradient(to right, #000000 , #c65030);; */
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
-    background-position: top;
-
+}
+.text-banner{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    transform: rotate(-7deg);
+}
+.text-banner-p1{
+    padding: 0;
+    margin: 0;
+}
+.text-banner-p2{
+    margin-top:-41px;
+}
+.span-25{
+    font-size: 25pt;
+}
+.span-35{
+    font-size: 35pt;
+}
+.span-45{
+    font-size: 45pt;
+}
+.span-60{
+    font-size: 60pt;
+}
+.span-75{
+    font-size: 75pt;
 }
 .img-klb{
     background-image: url('../image/klb.jpg');
@@ -150,7 +178,7 @@ a:hover{
     background-color: #ffffff;
     border-radius: 4px;
     box-shadow: 0 0 10px #a5a4a4;
-    width: 850px;
+    width: 1150px;
     height: 115px;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +213,7 @@ a:hover{
     width: 95px;
 }
 #grupo-btn{
-    width: 780px;
+    width: 1149px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -197,6 +225,7 @@ a:hover{
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
+    margin-left: 65px;
     background-color: #ffffff;
 
     transition: all 0.2s ease-in-out;
@@ -309,6 +338,23 @@ a:hover{
     transition: all 0.3s ease-in-out;
     text-decoration: none;
 }
+.cortina{
+    background-image: url('../image/cortinas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 370px;
+    width: 270px;
+    border-radius: 7px 7px 0 0; */
+}
+.cortina-text{
+    margin-top: 360px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+}
+.cortina-text span{
+    font-weight: bold;
+}
 .plano:hover{
     margin-top: -5px;
     box-shadow: 0 0 10px #f77a49;
@@ -387,34 +433,27 @@ a:hover{
     background-image: url('../image/img-bateria.png');
 }
 .plan-klb{
-    background-image: url('../image/klb.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('../image/klb-dois.png');
+    /* background-size: cover; */
+    background-size: 150%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
 
-    border-radius: 7px 7px 0 0;
+    /* border-radius: 7px 7px 0 0;
     height: 200px;
-    width: 270px;
+    width: 270px; */
 }
-.plan-klb-descr{
-    border-radius: 0 0 7px 7px;
-    height: 200px;
-    width: 270px;
-    background-color:#c65030;
-}
-.plan-klb-descr h3{
-    color: #ffffff;
+
+.plan-klb h3{
+    color: #292727;
     text-align: center;
     font-size: 40pt;
+    font-weight: 900;
+    padding-top: 290px;
+    font-family: 'Roboto', sans-serif;
 }
-.plan-klb-descr img{
-    width: 150px;
-}
-.klb-logo{
-    padding-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 160px;
-}
+
 
 #suporte{
     width: 100%;

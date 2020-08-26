@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/pallet.css">
     <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body id='page-top'>
     <header id='navbar' class='nav-bar'>
@@ -63,7 +64,10 @@
     </div>
     <section id='banner'>
         <div class='banner-fundo'>
-         
+                <div class='text-banner'>
+                    <p class='text-banner-p1'><span class='span-45 font-color-white'>#Seu </span><span class='span-45 font-color-orange'>Palco</span></p>
+                    <p class='text-banner-p2'><span class='span-45 font-color-white'>de </span><span class='span-75 font-color-orange'>Conexões!</span></p>
+                </div>
         </div>
     </section>
     <div id='menu-icon'>
@@ -123,7 +127,7 @@
                     <p class='font-color-orange span-plano40italico'>Ilimitados</p>
                     <p class='font-color-orange span-plano50italico'><span class='span-plano60'>10</span><span class='span-plano50'>Gb</span></p>
                     <p class='font-color-orange'>R$<span class='span-plano50'>59</span>,90</p>
-                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Comprar</span></p>
+                    <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
                 </a>
                 <a href="#!" class='plano plano-tres'>
                     <p class='font-color-orange span-plano25'>Ligações e SMS</p>
@@ -142,67 +146,40 @@
         <div class='fundo-artistas'>
             <a href="#!" id="leftSlide" class=""><i class="fas fa-angle-left fa-4x"></i></a>
             <div class='planos-group scroll' id='sessaoArtistas'>
-                <a href="#!" class='plano'>
-                    <div class='plan-klb'></div>
-                    <div class='plan-klb-descr'>
+                <a href="#!" class='plano plan-klb'>
+                    <div class=''>
                        <h3>KLB</h3>
-                        <div class='klb-logo'>
-                            <img src="image/logo-do-klb.png" alt="">
-                        </div>
+                    </div>
+                   
+                </a>
+                <a href="#!" class='plano cortina'>
+                    <div class='cortina-text'>
+                        <p class='font-color-white'>Aguarde o <span>próximo Show</span></p>
                     </div>
                 </a>
-                <a href="#!" class='plano'>
-                    <div class='plan-klb'></div>
-                    <div class='plan-klb-descr'>
-                       <h3>KLB</h3>
-                        <div class='klb-logo'>
-                            <img src="image/logo-do-klb.png" alt="">
-                        </div>
+                <a href="#!" class='plano cortina'>
+                    <div class='cortina-text'>
+                        <p class='font-color-white'>Aguarde o <span>próximo Show</span></p>
                     </div>
                 </a>
-                <a href="#!" class='plano'>
-                    <div class='plan-klb'></div>
-                    <div class='plan-klb-descr'>
-                       <h3>KLB</h3>
-                        <div class='klb-logo'>
-                            <img src="image/logo-do-klb.png" alt="">
-                        </div>
+                <a href="#!" class='plano cortina'>
+                    <div class='cortina-text'>
+                        <p class='font-color-white'>Aguarde o <span>próximo Show</span></p>
                     </div>
                 </a>
-                <a href="#!" class='plano'>
-                    <div class='plan-klb'></div>
-                    <div class='plan-klb-descr'>
-                       <h3>KLB</h3>
-                        <div class='klb-logo'>
-                            <img src="image/logo-do-klb.png" alt="">
-                        </div>
+                <a href="#!" class='plano cortina'>
+                    <div class='cortina-text'>
+                        <p class='font-color-white'>Aguarde o <span>próximo Show</span></p>
                     </div>
                 </a>
-                <a href="#!" class='plano'>
-                    <div class='plan-klb'></div>
-                    <div class='plan-klb-descr'>
-                       <h3>KLB</h3>
-                        <div class='klb-logo'>
-                            <img src="image/logo-do-klb.png" alt="">
-                        </div>
+                <a href="#!" class='plano cortina'>
+                    <div class='cortina-text'>
+                        <p class='font-color-white'>Aguarde o <span>próximo Show</span></p>
                     </div>
                 </a>
-                <a href="#!" class='plano'>
-                    <div class='plan-klb'></div>
-                    <div class='plan-klb-descr'>
-                       <h3>KLB</h3>
-                        <div class='klb-logo'>
-                            <img src="image/logo-do-klb.png" alt="">
-                        </div>
-                    </div>
-                </a>
-                <a href="#!" class='plano'>
-                    <div class='plan-klb'></div>
-                    <div class='plan-klb-descr'>
-                       <h3>KLB</h3>
-                        <div class='klb-logo'>
-                            <img src="image/logo-do-klb.png" alt="">
-                        </div>
+                <a href="#!" class='plano cortina'>
+                    <div class='cortina-text'>
+                        <p class='font-color-white'>Aguarde o <span>próximo Show</span></p>
                     </div>
                 </a>
             </div>
@@ -257,13 +234,13 @@
                     a SHOW Mobile oferece as melhores tarifas, melhor cobertura e conteúdos e promoções exclusivas para seus clientes. 
                     Muito Além da conectividade a SHOW proporciona uma experiência exclusiva e cria um novo canal de relacionamento entre o fã e seus artistas favoritos.
                     </p>
-                    <p>
+                    <!-- <p>
                         O que fazemos<br> 
                         Unimos fãs aos seus artistas favoritos criando uno novo canal de relacionamento. 
                         Proporcionamos aos artistas uma ferramenta única e exclusiva para vender conteúdos 
                         e criar experiências exclusivas com o público, aumentando as posibilidades de remuneração hoje existentes. 
                         Além disso todos os artistas da SHOW recebem mensalmente uma comissão sobre os valores das tarifas móveis de toda sua base de clientes.
-                    </p>
+                    </p> -->
                 </div>
 
             </div>
