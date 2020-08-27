@@ -98,7 +98,7 @@
         </div>
     </div>
     <div id='text-apresent'>
-        <h3>Conheça nossas <span class='font-color-orange'>tarifas móveis</span> e aproveite a <span class='font-color-orange'>melhor conexão</span> com <span class='font-color-orange'>conteúdos exclusivos</span> do seus artistas preferidos <span class='font-color-orange'></span></h3>
+        <h3>Conheça nossas <span class='font-color-orange'>tarifas móveis</span> e aproveite a <span class='font-color-orange'>melhor conexão</span> com <span class='font-color-orange'>conteúdos exclusivos</span> de seus artistas preferidos <span class='font-color-orange'></span></h3>
     </div>
     <hr>
     <section id='sessao-planos'>
@@ -106,34 +106,27 @@
             <a href="#!" id="leftSlidePlan" class=""><i class="fas fa-angle-left fa-4x"></i></a>
             <div class='planos-group scroll' id='listaPlano'>
                 <a href="#!" class='plano plano-um'>
-                    <p class='font-color-orange span-plano10italicoBold'>Internet sem corte</p>
-                    <p class='font-color-orange span-plano10italicoBold'>SMS ilimitado</p>
-                    <p class='font-color-orange span-plano10italicoBold'>Ligações ilimitadas <br>para todo o brasil</p>
+                    <p class='font-color-black'> <span class='span-plano10italicoBold'>Internet </span><span class='font-color-orange span-plano10italicoBold'>sem corte</span></p>
+                    <p class='font-color-black'> <span class='span-plano10italicoBold'>SMS</span><span class='font-color-orange span-plano10italicoBold'> ilimitado</span></p>
+                    <p class='font-color-orange'> <span class='span-plano10italicoBold'>Ligações ilimitadas</span><br><span class='font-color-black span-plano10italicoBold'>para todo o brasil</span></p>
                     <p class='font-color-orange '><span class='span-plano50'>5</span><span class='span-plano50'>Gb</span></p>
                     <p class='font-color-orange'>R$<span class='span-plano50'>49</span>,90</p>
                     <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
                 </a>
                 <a href="#!" class='plano plano-dois'>
-                <p class='font-color-orange span-plano25'>Plano controle</p>
-                    <ul class='plano-ul'>
-                        <li class='font-color-orange'>Internet sem cortes</li>
-                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
-                        <li class='font-color-orange'>SMS ilimitado</li>
-                    </ul>
+                <p class='font-color-black'> <span class='span-plano10italicoBold'>Internet </span><span class='font-color-orange span-plano10italicoBold'>sem corte</span></p>
+                    <p class='font-color-black'> <span class='span-plano10italicoBold'>SMS</span><span class='font-color-orange span-plano10italicoBold'> ilimitado</span></p>
+                    <p class='font-color-orange'> <span class='span-plano10italicoBold'>Ligações ilimitadas</span><br><span class='font-color-black span-plano10italicoBold'>para todo o brasil</span></p>
                     <p class='font-color-orange '><span class='span-plano50'>10</span><span class='span-plano50'>Gb</span></p>
-                    <p class='font-color-orange'>R$<span class='span-plano25'>59</span>,90</p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>59</span>,90</p>
                     <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
-                   
                 </a>
                 <a href="#!" class='plano plano-tres'>
-                    <p class='font-color-orange span-plano25'>Plano controle</p>
-                    <ul class='plano-ul'>
-                        <li class='font-color-orange'>Internet sem cortes</li>
-                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
-                        <li class='font-color-orange'>SMS ilimitado</li>
-                    </ul>
+                <p class='font-color-black'> <span class='span-plano10italicoBold'>Internet </span><span class='font-color-orange span-plano10italicoBold'>sem corte</span></p>
+                    <p class='font-color-black'> <span class='span-plano10italicoBold'>SMS</span><span class='font-color-orange span-plano10italicoBold'> ilimitado</span></p>
+                    <p class='font-color-orange'> <span class='span-plano10italicoBold'>Ligações ilimitadas</span><br><span class='font-color-black span-plano10italicoBold'>para todo o brasil</span></p>
                     <p class='font-color-orange '><span class='span-plano50'>15</span><span class='span-plano50'>Gb</span></p>
-                    <p class='font-color-orange'>R$<span class='span-plano25'>79</span>,90</p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>79</span>,90</p>
                     <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
                    
                 </a>
