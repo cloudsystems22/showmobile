@@ -106,14 +106,11 @@
             <a href="#!" id="leftSlidePlan" class=""><i class="fas fa-angle-left fa-4x"></i></a>
             <div class='planos-group scroll' id='listaPlano'>
                 <a href="#!" class='plano plano-um'>
-                    <p class='font-color-orange span-plano25'>Plano controle</p>
-                    <ul class='plano-ul'>
-                        <li class='font-color-orange'>Internet sem cortes</li>
-                        <li class='font-color-orange'>Ligações ilimitadas <br>para todo o brasil</li>
-                        <li class='font-color-orange'>SMS ilimitado</li>
-                    </ul>
+                    <p class='font-color-orange span-plano10italicoBold'>Internet sem corte</p>
+                    <p class='font-color-orange span-plano10italicoBold'>SMS ilimitado</p>
+                    <p class='font-color-orange span-plano10italicoBold'>Ligações ilimitadas <br>para todo o brasil</p>
                     <p class='font-color-orange '><span class='span-plano50'>5</span><span class='span-plano50'>Gb</span></p>
-                    <p class='font-color-orange'>R$<span class='span-plano25'>49</span>,90</p>
+                    <p class='font-color-orange'>R$<span class='span-plano50'>49</span>,90</p>
                     <p class='font-color-orange'><span class='span-plano15italicoBold'>Contratar</span></p>
                 </a>
                 <a href="#!" class='plano plano-dois'>
@@ -290,8 +287,8 @@
                     <h3><span class='font-color-orange'>Sobre nós</span></h3>
                     <p>
                     A  SHOW Mobile, apresenta um novo conceito em telefonia para o mercado brasileiro, em associação com grandes nomes do show business e do Marketing digital, 
-                    a SHOW Mobile oferece as melhores tarifas, melhor cobertura e conteúdos e promoções exclusivas para seus clientes. 
-                    Muito Além da conectividade a SHOW proporciona uma experiência exclusiva e cria um novo canal de relacionamento entre o fã e seus artistas favoritos.
+                    a SHOW Mobile oferece as melhores tarifas, melhor cobertura, conteúdos e promoções exclusivas para seus clientes. 
+                    Muito além da conectividade a SHOW proporciona uma experiência exclusiva e cria um novo canal de relacionamento entre o fã e seus artistas favoritos.
                     </p>
                     <!-- <p>
                         O que fazemos<br> 
