@@ -794,7 +794,7 @@ form{
     .menu-icon{
         margin-top: -3vh;
         width: 90vw;
-        height: 17vh;
+        height: 24vh;
     }
     .btn-menu-ico{
         width: 30vw;
@@ -875,7 +875,7 @@ form{
 }
 @media (max-width:390px){
     .menu-icon{
-        height: 19vh;
+        height: 24vh;
     }
     .plano-group{
         width: 80vw;
@@ -899,7 +899,7 @@ form{
 }
 @media (max-width:360px){
     .menu-icon{
-        height: 19vh;
+        height: 24vh;
     }
     .plano-group{
         width: 83vw;
