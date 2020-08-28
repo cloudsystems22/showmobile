@@ -2,10 +2,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;span-plano250,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 a{
     text-decoration:none;
+    font-family: 'Nunito' sans-serif;
 }
 a:hover{
     text-decoration: none;
 }
+
+p{
+    font-family: 'Nunito' sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Nunito' sans-serif;
+}
+
+#navbar{
+    display: block;
+}
+#sidebar{
+    display: block;
+}
+#banner{
+    display: block;
+}
+#sessao-plano{
+    display: block;
+}
+#nossos-artistas{
+    display: block;
+}
+#sobre-nos{
+    display: block;
+}
+#rodape{
+    display: block;
+}
+
+
 .nav-side{
     list-style: none;
 }
@@ -72,6 +104,7 @@ a:hover{
     font-size: 15.5pt;
 }
 .nav-bar{
+    display: block;
     width: 100%;
     height: 70px;
     box-shadow: 0 0 10px rgb(241, 239, 239);
@@ -422,6 +455,13 @@ a:hover{
 }
 .span-plano15italicoBold{
     font-size: 25pt;
+    font-weight: bold;
+    font-style: italic;
+    margin:0;
+    padding:0;
+}
+.span-plano10italicoBold{
+    font-size: 18pt;
     font-weight: bold;
     font-style: italic;
     margin:0;
@@ -831,6 +871,195 @@ form{
     }
 }
 
+@media screen and (max-width:720px) and (max-height:1560px){
+    .text-banner-dois{
+        padding-top: 15px;
+        font-size: 5pt;
+        margin-left: -10px;
+    }
+    .text-banner{
+        left: 130px;
+        top: 95px;
+    }
+    .text-banner-p2 {
+        margin-top: -11px;
+    }
+    .span-45{
+        font-size: 21pt;
+    }
+    .span-75{
+        font-size: 28pt;
+    }
+    .container{
+        margin-left: 5px;
+    }
+    .hanburger{
+        position: absolute;
+        top:5px;
+        left: 340px;
+        visibility: visible;
+    }
+    .hanburger a{
+        color:#c65030;
+    }
+    .expand{
+        height: 170px;
+        position: fixed;
+    } 
+    .nav-mobile{
+        flex: 99%;
+        max-width: 99%;
+        visibility: hidden;
+        /* transition: all 0.1s ease-in-out; */
+    }
+    .nav-mobile-visivel{
+        visibility: visible;
+    }
+    .nav-mobile-redes{
+        margin-left: -117px;
+        padding-top: 150px
+    }
+    #banner{
+        height: 230px;
+    }
+    .banner-fundo{
+        height: 229px;
+    }
+    .tel-comercial-side{
+        margin-top:15px;
+    }
+    .nav-side-redes{
+        list-style: none;
+        margin-left: 155px;
+        margin-top: -47px;
+    }
+    #menu-icon{
+        width: 325px;
+        margin-left: 30px;
+        height: 180px;
+        margin-top: -40px;
+    }
+    #grupo-btn{
+        width: 325px;
+        margin-left:0;
+    }
+    .grupo-btn{
+        width: 379px;
+    }
+    .btn-menu-ico{
+        display: inline-block;
+        width: 99px;
+        height: 83px;
+        font-size: 6pt;
+        margin-left:9px;
+    }
+    .btn-menu-ico:hover{
+        width: 100px;
+        height: 84px;
+    }
+    .btn-menu-ico img{
+        width: 45px;
+    }
+    #text-apresent{
+        margin-left: 25px;
+        width: 325px;
+    }
+    #text-apresent h3{
+        font-size: 12pt;
+    }
+    .fundo-planos{
+        width: 100%;
+    }
+    .planos-group{
+        width: 310px;
+        margin-left: 38px;
+    }
+    .scroll { 
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: auto;
+        white-space:nowrap;
+        scroll-behavior: smooth;
+    } 
+    .plano{
+        margin-left: 25px;
+        margin-right: 25px
+    }
+    #leftSlidePlan{
+        margin-top: 185px;
+        margin-left: 10px;
+    }
+    #rightSlidePlan{
+        margin-top: -243px;
+        margin-left: 350px;
+    }
+    #leftSlide{
+        margin-top: 185px;
+        margin-left: 10px;
+    }
+    #rightSlide{
+        margin-top: -251px;
+        margin-left: 350px;
+    }
+    #nossos-artistas{
+        height: 480px;
+    }
+    #nossos-artistas h2{
+        width: 340px;
+    }
+
+    #sobre-nos{
+        height: 500px;
+    }
+    .sobre-nos{
+        width: 350px;
+        margin-left:10px;
+    }
+    .sn-response{
+        margin-top: 5px;
+        max-width: 99%;
+        flex: 99%;
+    }
+    .sn-response p{
+        padding-left: 19px;
+        width: 350px;
+    }
+    #form-contato{
+        height: 500px;
+    }
+    .form{
+        margin-left: 10px;
+        width: 370px;
+        height: 580px;
+    }
+    #rodape{
+        height: 600px;
+    }
+    .footer-itens{
+        width: 350px;
+        margin-left: 10px;
+    }
+    .row-form-resp{
+        flex: 99%;
+        max-width: 99%;
+    }
+    .logo-footer{
+        margin-top: 94px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mapa-site{
+        margin-left: 1px;
+        margin-top: 30px;
+    }
+    .contato-footer{
+        margin-top: 10px;
+    }
+    .politica-info{
+        margin-top:10px;
+    }
+}
+
 @media screen and (max-width:414px) and (max-height:736px){
     .text-banner-dois{
         padding-top: 15px;
@@ -931,8 +1160,8 @@ form{
         scroll-behavior: smooth;
     } 
     .plano{
-        margin-left: 75px;
-        margin-right: 75px;
+        margin-left: 50px;
+        margin-right: 50px
     }
     #leftSlidePlan{
         margin-top: 185px;
@@ -969,7 +1198,7 @@ form{
         height: 500px;
     }
     .form{
-        width: 350px;
+        width: 365px;
         height: 580px;
     }
     #rodape{

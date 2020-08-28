@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {   
+document.addEventListener('DOMContentLoaded', function () { 
     let leftSlide = document.getElementById('leftSlide');
     let rightSlide = document.getElementById('rightSlide');
     leftSlide.addEventListener('click', function(){
