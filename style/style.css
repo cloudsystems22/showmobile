@@ -830,6 +830,9 @@ form{
     .span-75{
         font-size: 20pt;
     }
+    #nossos-artistas{
+        margin-top:28vh;
+    }
     .logo-footer{
         margin-top: 6vh;
         width: 100vw;

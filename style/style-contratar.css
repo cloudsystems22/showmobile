@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;span-plano250,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+a{
+    text-decoration:none;
+    font-family: 'Nunito' sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    font-family: 'Roboto' sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Roboto' sans-serif;
+}
+.nav-bar{
+    width: 100vw;
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #eceaea;
+    height: 70px;
+    position: fixed;
+    top:0;
+    z-index: 100;
+}
+.container-nav{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    margin-top: 20px;
+    width: 550px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav li{
+    display: inline;
+    padding-left: 0;
+}
+.nav li a{
+    text-decoration: none;
+    display: block;
+    padding-left: 25px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+.nav li a:hover{
+    color: #c65030;
+    /* font-weight: bold; */
+}
+.img-ico{
+    width: 20px;
+    height: 20px;
+}
+.tel-comercial{
+    margin-left: auto;
+    margin-right: 0;
+}
+.tel-comercial p{
+    font-size: 10pt;
+}
+.tel-span{
+    font-weight: bold;
+    color:#c65030;
+    font-size: 16pt;
+}
+.nav-redes{
+    padding-left: 0;
+    width: 30px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Contratação */
+#body{
+    width: 100vw;
+    display: block;
+    margin-top:70px;
+    background-color: #fdfbfb;
+}
+.corpo-contratacao{
+    width: 80vw;
+    min-height: 40vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+.plano{
+    width: 20vw;
+}
+.form{
+    width: 50vw;
+    margin-left: 10vw;
+    min-height: 30vh;
+    background-color: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #535353;
+}
+.simcard{
+    width: 20vw;
+}
+
+/* Rodapé referente */
+#footer{
+    width: 100vw;
+    background-color: #535353;
+}
+.footer-nav{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 30vh;
+    padding-bottom: 3vh;
+}
+.logo-footer{
+    margin-left:1vw;
+    width: 20vw;
+    height: 6vh;
+    margin-top: 12vh;
+}
+.logo-footer img{
+    width: 17vw;
+}
+.mapa-site{
+    width: 7vw;
+    margin-top: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt;
+}
+.rodape-list{
+    margin-left: 0;
+    padding-left: 0;
+}
+.mapa-site span{
+    font-weight: bold;
+}
+.mapa-site p{
+    color:#ffffff;
+}
+.mapa-site ul {
+    list-style: none;
+    color:#ffffff;
+}
+.mapa-site ul li a{
+    color: #ffffff;
+}
+.contato-footer{
+    width: 15vw;
+    margin-top: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt;
+}
+.contato-footer span{
+    font-weight: bold;
+    color: #ffffff;
+}
+.contato-footer ul {
+    list-style: none;
+}
+.contato-footer ul li{
+    color:#ffffff;
+}
+.politica-info{
+    width: 13vw;
+    margin-top: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt;
+    color:#ffffff;
+}
+.politica-info span{
+    font-weight: bold;
+}
+.politica-info p {
+    margin:0;
+    padding: 0;
+}
+.politica-info p a{
+    color:#ffffff;
+}
+
+@media (max-width:1400px){
+    
+}
+
+@media (max-width:1200px){
+
+}
+
+@media (max-width:1000px){
+    .container-nav{
+        width: 90vw;
+    }
+    .footer-nav{
+        width: 90vw;
+    }
+}
+
+@media (max-width:800px){
+    
+}
+
+@media (max-width:600px){
+    .mapa-site{
+        width: 20vw;
+    }
+    .contato-footer{
+        width: 37vw;
+    }
+    .politica-info{
+        width: 39vw;
+        margin-top: 1vh;
+    }
+}
+
+@media (max-width:400px){
+    .logo-footer{
+        width: 100vw;
+    }
+    .logo-footer a {
+        width: 100vw;
+    }
+    .logo-footer a img{
+        width: 45vw;
+        text-align: center;
+    }
+    .mapa-site{
+        width: 100vw;
+        margin-top: 14px;
+    }
+    .contato-footer{
+        width: 100vw;
+        margin-top: 1vh;
+    }
+    .politica-info{
+        width: 100vw;
+    }
+}
+
+@media (max-width:200px){
+    
+}
