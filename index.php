@@ -85,7 +85,7 @@
         <div class='sessao-planos row' id='sessaoplanos'>
             <a href="#!" id="leftSlidePlan" class="arrow-left"><i class="fas fa-angle-left fa-4x"></i></a>
             <div class='plano-group scroll' id='listaPlano'>
-                <a href="#!" class='plano-tarifa plano-um'>
+                <a href="contratar.php?plano=1" class='plano-tarifa plano-um'>
                     <div class='tarifas-plano'>
                         <p class='font-color-orange span-font20'>Plano controle <span class='span-font40bold'>5</span><span class='span-font30'>Gb</span></p>
                         <p class='font-color-orange span-font20 margin-negativa'>R$<span class='span-font40bold'>49</span>,90</p>
@@ -97,7 +97,7 @@
                         <button class='btn-contratar'>Contratar</button>
                     </div>
                 </a>
-                <a href="#!" class='plano-tarifa plano-dois'>
+                <a href="contratar.php?plano=2" class='plano-tarifa plano-dois'>
                     <div class='tarifas-plano'>
                         <p class='font-color-orange span-font17'>Plano controle <span class='span-font40bold'>10</span><span class='span-font30'>Gb</span></p>
                         <p class='font-color-orange span-font20 margin-negativa'>R$<span class='span-font40bold'>59</span>,90</p>
@@ -109,7 +109,7 @@
                         <button class='btn-contratar'>Contratar</button>
                     </div>
                 </a>
-                <a href="#!" class='plano-tarifa plano-tres'>
+                <a href="contratar.php?plano=3" class='plano-tarifa plano-tres'>
                     <div class='tarifas-plano'>
                         <p class='font-color-orange span-font17'>Plano controle <span class='span-font40bold'>15</span><span class='span-font30'>Gb</span></p>
                         <p class='font-color-orange span-font20 margin-negativa'>R$<span class='span-font40bold'>79</span>,90</p>
