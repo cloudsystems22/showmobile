@@ -42,7 +42,7 @@ function emailCadastro(){
     
     $mail->CharSet = 'UTF-8';
     
-    $mail->Subject = "Cadatro realizado ". $nomeAss . " " . $emailAss;
+    $mail->Subject = "Cadastro realizado ". $nomeAss . " " . $emailAss;
     
     $mail->Body =  "<table style='width: 100%; min-height: 30p; border: 1px solid #000000;'>".
                     "<tr style='width: 100%; height: 30px; background-color: #c65030; color: #FFFFFF'><td colspan='2'><h3>Formulário de cadastro</h3></td></tr>".
